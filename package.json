@@ -9,13 +9,20 @@
   "dependencies": {
     "bad-words": "^3.0.4",
     "clsx": "^1.1.1",
+    "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
+    "events": "^3.3.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "net": "^1.0.2",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-loading-skeleton": "^2.1.1",
     "serverless-mysql": "^1.5.4",
-    "swr": "^0.3.9"
+    "swr": "^0.3.9",
+    "tls": "^0.0.1",
+    "util": "^0.12.4"
   },
   "devDependencies": {
     "@types/node": "^14.14.6",

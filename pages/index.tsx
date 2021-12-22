@@ -1,9 +1,8 @@
 import React from 'react'
+import { query } from '@lib/db'
 
 export default function Home() {
   return (
-    <div className="">
-      Hello World!
-    </div>
+    <h1>Hello World!</h1>
   )
 }

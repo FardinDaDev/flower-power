@@ -1,4 +1,4 @@
-import mysql from 'serverless-mysql'
+import mysql from 'serverless-mysql';
 
 export const db = mysql({
   config: {
@@ -17,7 +17,7 @@ export async function query(
   try {
     const results = await db.query(q, values)
     await db.end()
-    return results
+    return results;
   } catch (e) {
     throw Error(e.message)
   }
